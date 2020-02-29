@@ -11,9 +11,24 @@
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
+    <PlatformTarget>x86</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -50,16 +65,25 @@
     <Compile Include="HackerRank\Mini-Max Sum.cs" />
     <Compile Include="HackerRank\Staircase.cs" />
     <Compile Include="HackerRank\Time Conversion.cs" />
+    <Compile Include="LeetCode\Contest\Problem1360.cs" />
+    <Compile Include="LeetCode\Contest\Problem5171.cs" />
+    <Compile Include="LeetCode\Hard\Problem1363.cs" />
     <Compile Include="LeetCode\Easy\Problem1170.cs" />
     <Compile Include="LeetCode\Easy\Problem7.cs" />
+    <Compile Include="LeetCode\Hard\Problem4.cs" />
     <Compile Include="LeetCode\Medium\Problem2.cs" />
     <Compile Include="LeetCode\Medium\Problem240.cs" />
     <Compile Include="LeetCode\Medium\Program838.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="Tester.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="LeetCode\Hard\" />
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

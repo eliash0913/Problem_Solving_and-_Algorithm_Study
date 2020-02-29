@@ -2,21 +2,38 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Runtime.InteropServices;
 using Problem_Solving_and__Algorithm_Study.HackerRank;
 using Problem_Solving_and__Algorithm_Study.LeetCode.Easy;
 using Problem_Solving_and__Algorithm_Study.LeetCode.Medium;
+using Problem_Solving_and__Algorithm_Study.LeetCode.Hard;
+using Problem_Solving_and__Algorithm_Study.LeetCode.Contest;
+
 
 namespace Problem_Solving_and__Algorithm_Study
 {
-    class Program
+    public class Tester
     {
+        private const string DllFilePath = @"C:\Users\elias\OneDrive\CS-Project\Problem_Solving_and _Algorithm_Study\Debug\Cpp.dll";
+        [DllImport(DllFilePath, CallingConvention = CallingConvention.Cdecl)]
+        private extern static int CppTestRun();
+
+        public static int CppTest()
+        {
+            return CppTestRun();
+        }
+
         public static void LeetCodeTest()
         {
             //Problem7 p = new Problem7();
             //Problem1170 p = new Problem1170();
             //Problem2 p = new Problem2();
             //Problem838 p = new Problem838();
-            Problem240 p = new Problem240();
+            //Problem240 p = new Problem240();
+            //Problem5169 p = new Problem5169();
+            //Problem5171 p = new Problem5171();
+            //Problem1363 p = new Problem1363();
+            Problem4 p = new Problem4();
             p.Test();
         }
         public static void HackerRankTest()
@@ -28,13 +45,15 @@ namespace Problem_Solving_and__Algorithm_Study
             //Time_Conversion.Test();
             //Array_DS.Test();
             //_2DArray_DS.Test();
-            //Dynamic_Array.Test();
+            Dynamic_Array.Test();
             
         }
     
         static void Main(string[] args)
         {
-            HackerRankTest();
+            //CppTest();
+            //HackerRankTest();
+            LeetCodeTest();
         }
     }
 }
