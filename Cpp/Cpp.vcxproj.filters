@@ -13,11 +13,14 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="LeetCode">
-      <UniqueIdentifier>{13e7f0e4-2922-4a6e-b4f7-2df9374c1287}</UniqueIdentifier>
+    <Filter Include="Algorithms">
+      <UniqueIdentifier>{8c3c9038-9381-4d7e-ab74-a0ac1a65a7fc}</UniqueIdentifier>
     </Filter>
-    <Filter Include="HackerRank">
-      <UniqueIdentifier>{346b5460-74eb-4c3a-b5f3-7b17675b53d4}</UniqueIdentifier>
+    <Filter Include="HelloWorld">
+      <UniqueIdentifier>{7957843c-c8c5-4800-a06e-1c143e5b597e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="codewars">
+      <UniqueIdentifier>{21395fa5-c680-4b60-b82e-6982bffb63b6}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -27,9 +30,21 @@
     <ClCompile Include="MainRunner.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="HellWorld.cpp">
+      <Filter>HelloWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="Square_sums.cpp">
+      <Filter>codewars</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MainRunner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HelloWorld.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Square_sums.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

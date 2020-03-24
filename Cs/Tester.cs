@@ -8,6 +8,7 @@ using Problem_Solving_and__Algorithm_Study.LeetCode.Easy;
 using Problem_Solving_and__Algorithm_Study.LeetCode.Medium;
 using Problem_Solving_and__Algorithm_Study.LeetCode.Hard;
 using Problem_Solving_and__Algorithm_Study.LeetCode.Contest;
+using Problem_Solving_and__Algorithm_Study.Algorithm.Sort;
 
 
 namespace Problem_Solving_and__Algorithm_Study
@@ -33,7 +34,8 @@ namespace Problem_Solving_and__Algorithm_Study
             //Problem5169 p = new Problem5169();
             //Problem5171 p = new Problem5171();
             //Problem1363 p = new Problem1363();
-            Problem4 p = new Problem4();
+            //Problem4 p = new Problem4(); //NOT COMPLETED
+            Problem836 p = new Problem836();
             p.Test();
         }
         public static void HackerRankTest()
@@ -45,8 +47,18 @@ namespace Problem_Solving_and__Algorithm_Study
             //Time_Conversion.Test();
             //Array_DS.Test();
             //_2DArray_DS.Test();
-            Dynamic_Array.Test();
-            
+            //High_Security_Strings.Test();
+            //Maximum_Streaks.Test();
+            //Determine_the_Winner.Test();
+            Dynamic_Array.Test(); //NOT COMPLETED
+        }
+
+        public static void Algorithm()
+        {
+            Merge_Sort sort = new Merge_Sort();
+            Binrary_Search_Tree search = new Binrary_Search_Tree();
+            //sort.Test();
+            search.Test();
         }
     
         static void Main(string[] args)
@@ -54,6 +66,8 @@ namespace Problem_Solving_and__Algorithm_Study
             //CppTest();
             //HackerRankTest();
             LeetCodeTest();
+            
+            //Algorithm();
         }
     }
 }

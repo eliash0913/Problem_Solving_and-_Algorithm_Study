@@ -36,6 +36,7 @@ using System.Text;
 
 namespace Problem_Solving_and__Algorithm_Study.LeetCode.Easy
 {
+    /***** COMPLETED *****/
     class Problem1170
     {
         public int[] NumSmallerByFrequency(string[] queries, string[] words)

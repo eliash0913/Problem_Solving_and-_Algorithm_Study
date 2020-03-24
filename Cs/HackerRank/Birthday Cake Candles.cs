@@ -1,19 +1,21 @@
-﻿using System;
+﻿/// <summary>
+/// ou are in charge of the cake for your niece's birthday and have decided the cake will have one candle for each year of her total age. 
+/// When she blows out the candles, she’ll only be able to blow out the tallest ones. 
+/// Your task is to find out how many candles she can successfully blow out.
+/// </summary>
+/// <param name="ar"></param>
+/// <returns></returns>
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
 namespace Problem_Solving_and__Algorithm_Study.HackerRank
 {
+    /***** COMPLETED *****/
     class Birthday_Cake_Candles
     {
-        /// <summary>
-        /// ou are in charge of the cake for your niece's birthday and have decided the cake will have one candle for each year of her total age. 
-        /// When she blows out the candles, she’ll only be able to blow out the tallest ones. 
-        /// Your task is to find out how many candles she can successfully blow out.
-        /// </summary>
-        /// <param name="ar"></param>
-        /// <returns></returns>
+
         static int BirthdayCakeCandles(int[] ar)
         {
             int max = ar[0]; //set an initial max value to be compared.

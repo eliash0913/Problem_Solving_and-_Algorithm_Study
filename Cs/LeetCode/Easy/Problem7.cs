@@ -22,6 +22,7 @@ using System.Text;
 
 namespace Problem_Solving_and__Algorithm_Study.LeetCode.Easy
 {
+    /***** COMPLETED *****/
     class Problem7
     {
         public int Reverse(int x)

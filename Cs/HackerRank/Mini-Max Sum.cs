@@ -1,4 +1,9 @@
-﻿using System;
+﻿/// <summary>
+/// Given five positive integers, find the minimum and maximum values that can be calculated by summing exactly four of the five integers. 
+/// Then print the respective minimum and maximum values as a single line of two space-separated long integers.
+/// </summary>
+/// <param name="arr"></param>
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -7,11 +12,7 @@ namespace Problem_Solving_and__Algorithm_Study.HackerRank
 {
     class Mini_Max_Sum
     {
-        /// <summary>
-        /// Given five positive integers, find the minimum and maximum values that can be calculated by summing exactly four of the five integers. 
-        /// Then print the respective minimum and maximum values as a single line of two space-separated long integers.
-        /// </summary>
-        /// <param name="arr"></param>
+        /***** COMPLETED *****/
         static void MiniMaxSum(int[] arr)
         {
             long maxSum = 0;

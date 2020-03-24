@@ -14,6 +14,7 @@ using System.Text;
 
 namespace Problem_Solving_and__Algorithm_Study.LeetCode.Contest
 {
+    /***** COMPLETED *****/
     class Problem1360
     {
         public int DaysBetweenDates(string date1, string date2)

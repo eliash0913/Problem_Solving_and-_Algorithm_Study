@@ -87,6 +87,8 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalUsingDirectories>%(AdditionalUsingDirectories)</AdditionalUsingDirectories>
+      <AdditionalIncludeDirectories>C:\Users\elias\OneDrive\CS-Project\Problem_Solving_and _Algorithm_Study\Cpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -140,9 +142,13 @@
   <ItemGroup>
     <ClCompile Include="MainRunner.cpp" />
     <ClCompile Include="CppTestRun.cpp" />
+    <ClCompile Include="HellWorld.cpp" />
+    <ClCompile Include="Square_sums.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MainRunner.h" />
+    <ClInclude Include="HelloWorld.h" />
+    <ClInclude Include="Square_sums.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

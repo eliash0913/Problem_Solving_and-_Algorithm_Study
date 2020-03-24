@@ -9,8 +9,10 @@ namespace Problem_Solving_and__Algorithm_Study.HackerRank
     /// Given a 6 by 6 2D Array, arr:
     /// We define an hourglass in A to be a subset of values with indices falling in this pattern in 's graphical representation:
     /// </summary>
+    /// 
     class _2DArray_DS
     {
+        /***** COMPLETED *****/
         static int hourglassSum(int[][] arr)
         {
             int maxSum = arr[0][0] + arr[0][1] + arr[0][2] + arr[1][1] + arr[2][0] + arr[2][1] + arr[2][2];//Declare and initialize maxSum variable.

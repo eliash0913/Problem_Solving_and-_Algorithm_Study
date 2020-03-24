@@ -8,7 +8,7 @@ namespace Problem_Solving_and__Algorithm_Study.HackerRank
 {
     class Diagonal_Difference
     {
-
+        /***** COMPLETED *****/
         public static int DiagonalDifference(List<List<int>> arr)
         {
             int count = arr.Count;

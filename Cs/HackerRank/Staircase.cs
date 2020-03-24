@@ -7,6 +7,7 @@ namespace Problem_Solving_and__Algorithm_Study.HackerRank
 {
     class Staircase
     {
+        /***** COMPLETED *****/
         static void staircase(int n)
         {
             char ws = ' ';
