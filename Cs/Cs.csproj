@@ -58,15 +58,6 @@
   <ItemGroup>
     <Compile Include="Algorithm\Sort\Binrary_Search_Tree.cs" />
     <Compile Include="Algorithm\Sort\Merge_Sort.cs" />
-    <Compile Include="Codewars\Are they the same.cs" />
-    <Compile Include="Codewars\Equal Sides Of An Array.cs" />
-    <Compile Include="Codewars\Josephus Permutation.cs" />
-    <Compile Include="Codewars\Playing with digits.cs" />
-    <Compile Include="Codewars\Shortest Word.cs" />
-    <Compile Include="Codewars\Sort the odd.cs" />
-    <Compile Include="Codewars\Sum of two lowest positive integers.cs" />
-    <Compile Include="Codewars\Valid Braces.cs" />
-    <Compile Include="Codewars\Where my anagrams at.cs" />
     <Compile Include="DisplayResults.cs" />
     <Compile Include="HackerRank\2DArray_DS.cs" />
     <Compile Include="HackerRank\Array_DS.cs" />
@@ -81,14 +72,11 @@
     <Compile Include="HackerRank\Time Conversion.cs" />
     <Compile Include="LeetCode\Contest\Problem1360.cs" />
     <Compile Include="LeetCode\Contest\Problem5171.cs" />
-    <Compile Include="LeetCode\Easy\Problem141.cs" />
     <Compile Include="LeetCode\Easy\Problem836.cs" />
-    <Compile Include="LeetCode\Easy\Problem876.cs" />
     <Compile Include="LeetCode\Hard\Problem1363.cs" />
     <Compile Include="LeetCode\Easy\Problem1170.cs" />
     <Compile Include="LeetCode\Easy\Problem7.cs" />
     <Compile Include="LeetCode\Hard\Problem4.cs" />
-    <Compile Include="LeetCode\Medium\Problem1019.cs" />
     <Compile Include="LeetCode\Medium\Problem1366.cs" />
     <Compile Include="LeetCode\Medium\Problem2.cs" />
     <Compile Include="LeetCode\Medium\Problem240.cs" />

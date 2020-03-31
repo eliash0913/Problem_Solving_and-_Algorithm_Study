@@ -9,7 +9,6 @@ using Problem_Solving_and__Algorithm_Study.LeetCode.Medium;
 using Problem_Solving_and__Algorithm_Study.LeetCode.Hard;
 using Problem_Solving_and__Algorithm_Study.LeetCode.Contest;
 using Problem_Solving_and__Algorithm_Study.Algorithm.Sort;
-using Problem_Solving_and__Algorithm_Study.Codewars;
 
 
 namespace Problem_Solving_and__Algorithm_Study
@@ -35,11 +34,8 @@ namespace Problem_Solving_and__Algorithm_Study
             //Problem5169 p = new Problem5169();
             //Problem5171 p = new Problem5171();
             //Problem1363 p = new Problem1363();
-            //Problem876 p = new Problem876();
-            Problem1019 p = new Problem1019();
             //Problem4 p = new Problem4(); //NOT COMPLETED
-            //Problem836 p = new Problem836();//NOT COMPLETED
-            //Problem141 p = new Problem141();//NOT COMPLETED
+            Problem836 p = new Problem836();
             p.Test();
         }
         public static void HackerRankTest()
@@ -57,19 +53,6 @@ namespace Problem_Solving_and__Algorithm_Study
             Dynamic_Array.Test(); //NOT COMPLETED
         }
 
-        public static void CodewarsTest()
-        {
-            //Josephus_Permutation.Test();//Not Completed
-            //Sum_of_two_lowest_positive_integers.Test();
-            //Equal_Sides_Of_An_Array.Test();
-            //Where_my_anagrams_at.Test();
-            //Are_they_the_same.Test();
-            //Valid_Braces.Test();
-            //Playing_with_digits.Test();
-            //Sort_the_odd.Test();
-            Shortest_Word.Test();
-        }
-
         public static void Algorithm()
         {
             Merge_Sort sort = new Merge_Sort();
@@ -82,8 +65,8 @@ namespace Problem_Solving_and__Algorithm_Study
         {
             //CppTest();
             //HackerRankTest();
-            //LeetCodeTest();
-            CodewarsTest();
+            LeetCodeTest();
+            
             //Algorithm();
         }
     }
