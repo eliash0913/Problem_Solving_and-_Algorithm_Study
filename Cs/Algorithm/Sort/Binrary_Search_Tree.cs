@@ -75,17 +75,35 @@ namespace Problem_Solving_and__Algorithm_Study.Algorithm.Sort
             }
         }
 
+        public void DisplayHeight()
+        {
+            Console.WriteLine("\nNumber of Height:{0}", Height(root));
+        }
+
+        public int Height(Node n)
+        {
+            if (n == null)
+                return -1;
+            else
+            {
+                return 1 + Math.Max(Height(n.Left), Height(n.Right));
+            }           
+        }
+
         public void Test()
         {
-            int[] arr = { 1, 3, 4, 5, 6, 7, 8, 9, 10, 13, 16 };
-            int arr_size = arr.Length;
             Binrary_Search_Tree bst = new Binrary_Search_Tree();
-            bst.Insert(1);
-            bst.Insert(3);
+            bst.Insert(21);
+            bst.Insert(16);
             bst.Insert(5);
-            bst.Insert(4);
-            bst.Insert(2);
-            Console.WriteLine(bst.GetMaxValue());
+            bst.Insert(0);
+            bst.Insert(13);
+            bst.Insert(27);
+            bst.Insert(58);
+            bst.Insert(30);
+            bst.Insert(35);
+            //Console.WriteLine(bst.GetMaxValue());
+            bst.DisplayHeight();
         }
     }
 
