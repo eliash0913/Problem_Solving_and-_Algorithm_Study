@@ -60,6 +60,7 @@
     <Compile Include="Algorithm\Sort\Merge_Sort.cs" />
     <Compile Include="Codewars\Are they the same.cs" />
     <Compile Include="Codewars\Equal Sides Of An Array.cs" />
+    <Compile Include="Codewars\Is a number prime.cs" />
     <Compile Include="Codewars\Josephus Permutation.cs" />
     <Compile Include="Codewars\Playing with digits.cs" />
     <Compile Include="Codewars\Shortest Word.cs" />

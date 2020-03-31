@@ -67,7 +67,8 @@ namespace Problem_Solving_and__Algorithm_Study
             //Valid_Braces.Test();
             //Playing_with_digits.Test();
             //Sort_the_odd.Test();
-            Shortest_Word.Test();
+            //Shortest_Word.Test();
+            Is_a_number_prime.Test();
         }
 
         public static void Algorithm()

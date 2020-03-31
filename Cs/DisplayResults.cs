@@ -82,5 +82,9 @@ namespace Problem_Solving_and__Algorithm_Study
         {
             Console.WriteLine(t);
         }
+        public static void Display(bool t)
+        {
+            Console.WriteLine(t);
+        }
     }
 }
