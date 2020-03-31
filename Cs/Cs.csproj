@@ -81,11 +81,14 @@
     <Compile Include="HackerRank\Time Conversion.cs" />
     <Compile Include="LeetCode\Contest\Problem1360.cs" />
     <Compile Include="LeetCode\Contest\Problem5171.cs" />
+    <Compile Include="LeetCode\Easy\Problem141.cs" />
     <Compile Include="LeetCode\Easy\Problem836.cs" />
+    <Compile Include="LeetCode\Easy\Problem876.cs" />
     <Compile Include="LeetCode\Hard\Problem1363.cs" />
     <Compile Include="LeetCode\Easy\Problem1170.cs" />
     <Compile Include="LeetCode\Easy\Problem7.cs" />
     <Compile Include="LeetCode\Hard\Problem4.cs" />
+    <Compile Include="LeetCode\Medium\Problem1019.cs" />
     <Compile Include="LeetCode\Medium\Problem1366.cs" />
     <Compile Include="LeetCode\Medium\Problem2.cs" />
     <Compile Include="LeetCode\Medium\Problem240.cs" />
