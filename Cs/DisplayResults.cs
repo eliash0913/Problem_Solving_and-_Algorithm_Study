@@ -71,7 +71,7 @@ namespace Problem_Solving_and__Algorithm_Study
         public static void Display<T>(T t) where T: IEnumerable
         {
             string result = "";
-            foreach (string s in t)
+            foreach (var s in t)
             {
                 result += s.ToString() + " ";
             }
@@ -82,6 +82,7 @@ namespace Problem_Solving_and__Algorithm_Study
         {
             Console.WriteLine(t);
         }
+
         public static void Display(bool t)
         {
             Console.WriteLine(t);

@@ -68,7 +68,16 @@ namespace Problem_Solving_and__Algorithm_Study
             //Playing_with_digits.Test();
             //Sort_the_odd.Test();
             //Shortest_Word.Test();
-            Is_a_number_prime.Test();
+            //Is_a_number_prime.Test(); //Not Completed
+            //Product_of_consecutive_Fib_numbers.Test();
+            //Weight_for_weight.Test(); //Not Completed
+            //Sum_of_Intervals.Test();
+            //First_non_repeating_character.Test();
+            //Human_Readable_Time.Test();
+            //Mexican_Wave.Test();
+            //RGB_To_Hex_Conversion.Test();
+            //Moving_Zeros_To_The_End.Test();
+            Decode_the_Morse_code__advanced.Test();
         }
 
         public static void Algorithm()

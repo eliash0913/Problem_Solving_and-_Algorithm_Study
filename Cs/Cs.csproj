@@ -11,6 +11,7 @@
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -23,7 +24,6 @@
     <MapFileExtensions>true</MapFileExtensions>
     <ApplicationRevision>0</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
@@ -49,6 +49,9 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.5.0\lib\portable-net40+sl4+win8+wp8\System.ValueTuple.dll</HintPath>
+    </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -59,13 +62,23 @@
     <Compile Include="Algorithm\Sort\Binrary_Search_Tree.cs" />
     <Compile Include="Algorithm\Sort\Merge_Sort.cs" />
     <Compile Include="Codewars\Are they the same.cs" />
+    <Compile Include="Codewars\Decode the Morse code, advanced.cs" />
     <Compile Include="Codewars\Equal Sides Of An Array.cs" />
+    <Compile Include="Codewars\First non-repeating character.cs" />
+    <Compile Include="Codewars\Human Readable Time.cs" />
+    <Compile Include="Codewars\Is a number prime.cs" />
     <Compile Include="Codewars\Josephus Permutation.cs" />
+    <Compile Include="Codewars\Mexican Wave.cs" />
+    <Compile Include="Codewars\Moving Zeros To The End.cs" />
     <Compile Include="Codewars\Playing with digits.cs" />
+    <Compile Include="Codewars\Product of consecutive Fib numbers.cs" />
+    <Compile Include="Codewars\RGB To Hex Conversion.cs" />
     <Compile Include="Codewars\Shortest Word.cs" />
     <Compile Include="Codewars\Sort the odd.cs" />
+    <Compile Include="Codewars\Sum of Intervals.cs" />
     <Compile Include="Codewars\Sum of two lowest positive integers.cs" />
     <Compile Include="Codewars\Valid Braces.cs" />
+    <Compile Include="Codewars\Weight for weight.cs" />
     <Compile Include="Codewars\Where my anagrams at.cs" />
     <Compile Include="DisplayResults.cs" />
     <Compile Include="HackerRank\2DArray_DS.cs" />
@@ -96,7 +109,9 @@
     <Compile Include="Tester.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
       <Visible>False</Visible>
