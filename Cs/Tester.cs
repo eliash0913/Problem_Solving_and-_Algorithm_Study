@@ -77,7 +77,10 @@ namespace Problem_Solving_and__Algorithm_Study
             //Mexican_Wave.Test();
             //RGB_To_Hex_Conversion.Test();
             //Moving_Zeros_To_The_End.Test();
-            Decode_the_Morse_code__advanced.Test();
+            //Decode_the_Morse_code__advanced.Test(); //Not Completed
+            //Adding_Big_Numbers.Test();
+            Double_Cola.Test();
+
         }
 
         public static void Algorithm()

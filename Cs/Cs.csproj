@@ -61,8 +61,10 @@
   <ItemGroup>
     <Compile Include="Algorithm\Sort\Binrary_Search_Tree.cs" />
     <Compile Include="Algorithm\Sort\Merge_Sort.cs" />
+    <Compile Include="Codewars\Adding Big Numbers.cs" />
     <Compile Include="Codewars\Are they the same.cs" />
     <Compile Include="Codewars\Decode the Morse code, advanced.cs" />
+    <Compile Include="Codewars\Double Cola.cs" />
     <Compile Include="Codewars\Equal Sides Of An Array.cs" />
     <Compile Include="Codewars\First non-repeating character.cs" />
     <Compile Include="Codewars\Human Readable Time.cs" />
