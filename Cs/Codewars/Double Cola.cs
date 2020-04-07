@@ -20,6 +20,7 @@ namespace Problem_Solving_and__Algorithm_Study.Codewars
             {
                 i++;
             }
+            Console.WriteLine(i);
             numberOfCompleteSet = 5 * (long)Math.Pow(2, i);
             queue = n + 5 - numberOfCompleteSet;
             long answer = (queue - 1) / (numberOfCompleteSet / names.Length);

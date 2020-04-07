@@ -79,8 +79,10 @@ namespace Problem_Solving_and__Algorithm_Study
             //Moving_Zeros_To_The_End.Test();
             //Decode_the_Morse_code__advanced.Test(); //Not Completed
             //Adding_Big_Numbers.Test();
-            Double_Cola.Test();
-
+            //Double_Cola.Test();
+            //Is_my_friend_cheating.Test();
+            //Dubstep.Test();
+            Snail_travel.Test();
         }
 
         public static void Algorithm()

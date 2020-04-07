@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\NUnit.3.12.0\build\NUnit.props" Condition="Exists('..\packages\NUnit.3.12.0\build\NUnit.props')" />
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -26,6 +27,8 @@
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>x86</PlatformTarget>
@@ -47,6 +50,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="nunit.framework, Version=3.12.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb, processorArchitecture=MSIL">
+      <HintPath>..\packages\NUnit.3.12.0\lib\net40\nunit.framework.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
@@ -65,10 +71,12 @@
     <Compile Include="Codewars\Are they the same.cs" />
     <Compile Include="Codewars\Decode the Morse code, advanced.cs" />
     <Compile Include="Codewars\Double Cola.cs" />
+    <Compile Include="Codewars\Dubstep.cs" />
     <Compile Include="Codewars\Equal Sides Of An Array.cs" />
     <Compile Include="Codewars\First non-repeating character.cs" />
     <Compile Include="Codewars\Human Readable Time.cs" />
     <Compile Include="Codewars\Is a number prime.cs" />
+    <Compile Include="Codewars\Is my friend cheating.cs" />
     <Compile Include="Codewars\Josephus Permutation.cs" />
     <Compile Include="Codewars\Mexican Wave.cs" />
     <Compile Include="Codewars\Moving Zeros To The End.cs" />
@@ -76,6 +84,7 @@
     <Compile Include="Codewars\Product of consecutive Fib numbers.cs" />
     <Compile Include="Codewars\RGB To Hex Conversion.cs" />
     <Compile Include="Codewars\Shortest Word.cs" />
+    <Compile Include="Codewars\Snail_travel.cs" />
     <Compile Include="Codewars\Sort the odd.cs" />
     <Compile Include="Codewars\Sum of Intervals.cs" />
     <Compile Include="Codewars\Sum of two lowest positive integers.cs" />
@@ -122,4 +131,10 @@
     </BootstrapperPackage>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\NUnit.3.12.0\build\NUnit.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\NUnit.3.12.0\build\NUnit.props'))" />
+  </Target>
 </Project>
