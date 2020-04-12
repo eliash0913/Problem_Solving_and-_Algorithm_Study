@@ -10,6 +10,7 @@ using Problem_Solving_and__Algorithm_Study.LeetCode.Hard;
 using Problem_Solving_and__Algorithm_Study.LeetCode.Contest;
 using Problem_Solving_and__Algorithm_Study.Algorithm.Sort;
 using Problem_Solving_and__Algorithm_Study.Codewars;
+using Problem_Solving_and__Algorithm_Study.Mentorship;
 
 
 namespace Problem_Solving_and__Algorithm_Study
@@ -29,18 +30,23 @@ namespace Problem_Solving_and__Algorithm_Study
         {
             //Problem7 p = new Problem7();
             //Problem1170 p = new Problem1170();
-            //Problem2 p = new Problem2();
             //Problem838 p = new Problem838();
             //Problem240 p = new Problem240();
             //Problem5169 p = new Problem5169();
             //Problem5171 p = new Problem5171();
             //Problem1363 p = new Problem1363();
             //Problem876 p = new Problem876();
-            Problem1019 p = new Problem1019();
+            //Problem1019 p = new Problem1019();
+            //Problem21 p = new Problem21();
+            //Contest1 p = new Contest1();
+            //Contest2 p = new Contest2();//NOT COMPLETED
+            //Contest3 p = new Contest3();
+            //Contest4 p = new Contest4();//NOT COMPLETED
+            //Problem2 p = new Problem2(); //NOT COMPLETED
             //Problem4 p = new Problem4(); //NOT COMPLETED
             //Problem836 p = new Problem836();//NOT COMPLETED
             //Problem141 p = new Problem141();//NOT COMPLETED
-            p.Test();
+            //p.Test();
         }
         public static void HackerRankTest()
         {
@@ -82,7 +88,11 @@ namespace Problem_Solving_and__Algorithm_Study
             //Double_Cola.Test();
             //Is_my_friend_cheating.Test();
             //Dubstep.Test();
-            Snail_travel.Test();
+            //Snail_travel.Test();
+            //Hamming_Numbers.Test();//Not Completed
+            //Simple_Pig_Latin.Test();
+            //The_observed_PIN.Test();
+            Counting_Change_Combinations.Test();//Not Completed
         }
 
         public static void Algorithm()
@@ -92,7 +102,11 @@ namespace Problem_Solving_and__Algorithm_Study
             //sort.Test();
             search.Test();
         }
-    
+
+        public static void Mentorship()
+        {
+            Caesar_Ciper.Test();
+        }
         static void Main(string[] args)
         {
             //CppTest();
@@ -100,6 +114,7 @@ namespace Problem_Solving_and__Algorithm_Study
             //LeetCodeTest();
             CodewarsTest();
             //Algorithm();
+            //Mentorship();
         }
     }
 }

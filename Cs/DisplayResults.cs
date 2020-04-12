@@ -92,5 +92,22 @@ namespace Problem_Solving_and__Algorithm_Study
         {
             Console.WriteLine(t);
         }
+
+        public static void Display(ListNode t)
+        {
+            Console.WriteLine(t.val);
+            while (t.next!=null)
+            {
+                t = t.next;
+                Console.WriteLine(t.val);
+            }
+        }
+    }
+
+    public class ListNode
+    {
+        public int val;
+        public ListNode next;
+        public ListNode(int x) { val = x; }
     }
 }
